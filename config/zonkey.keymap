@@ -87,7 +87,7 @@
 
         KIGO {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                    &kp LCTRL    &kp EXCLAMATION       &kp PIPE   &kp GRAVE  &trans
+&trans  &trans  &trans  &trans  &trans                    &kp CARET    &kp EXCLAMATION       &kp PIPE   &kp GRAVE  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp PERCENT  &kp AMPERSAND         &kp TILDE  &trans     &kp UNDERSCORE
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp SLASH    &kp NON_US_BACKSLASH  &trans     &trans     &kp ASTERISK
 &trans  &trans  &trans  &trans  &trans  &trans            &trans       &trans                                                      &trans
