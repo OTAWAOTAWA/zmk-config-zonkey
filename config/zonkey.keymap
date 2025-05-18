@@ -87,10 +87,10 @@
 
         KIGO {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                    &kp CARET    &kp EXCLAMATION       &kp PIPE   &kp GRAVE  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp PERCENT  &kp AMPERSAND         &kp TILDE  &trans     &kp UNDERSCORE
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp SLASH    &kp NON_US_BACKSLASH  &trans     &trans     &kp ASTERISK
-&trans  &trans  &trans  &trans  &trans  &trans            &trans       &trans                                                      &trans
+&kp AT_SIGN  &kp LEFT_BRACE  &kp RIGHT_BRACE    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                              &kp CARET    &kp EXCLAMATION       &kp PIPE   &kp GRAVE  &trans
+&kp HASH     &kp SQT         &kp DOUBLE_QUOTES  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans              &trans  &kp PERCENT  &kp AMPERSAND         &kp TILDE  &trans     &kp UNDERSCORE
+&trans       &kp DOLLAR      &kp COLON          &kp SEMICOLON         &kp LESS_THAN          &kp GREATER_THAN    &trans  &kp SLASH    &kp NON_US_BACKSLASH  &trans     &trans     &kp ASTERISK
+&trans       &trans          &trans             &trans                &trans                 &trans                      &trans       &trans                                                      &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
